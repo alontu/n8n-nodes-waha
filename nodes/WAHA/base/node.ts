@@ -6,6 +6,7 @@ export const BASE_DESCRIPTION: INodeTypeBaseDescription = {
 	icon: 'file:waha.svg',
 	description: 'Connect with Whatsapp HTTP API',
 	group: ['transform'],
+	usableAsTool: true,
 };
 
 
