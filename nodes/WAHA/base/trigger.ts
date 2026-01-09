@@ -9,7 +9,7 @@ import {
 } from 'n8n-workflow';
 
 export const BASE_TRIGGER_DESCRIPTION: INodeTypeBaseDescription = {
-	displayName: 'WAHA Trigger',
+	displayName: 'WAHA Tuval Trigger',
 	name: 'wahaTrigger',
 	icon: 'file:waha.svg',
 	group: ['trigger'],
@@ -17,7 +17,7 @@ export const BASE_TRIGGER_DESCRIPTION: INodeTypeBaseDescription = {
 };
 export const TRIGGER_DESCRIPTION = {
 	defaults: {
-		name: 'WAHA Trigger',
+		name: 'WAHA Tuval Trigger',
 	},
 	inputs: [],
 	credentials: [],
